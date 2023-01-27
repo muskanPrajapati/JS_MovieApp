@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.553);
+    border: 1px solid red;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .navbar a {
+    margin-right: 20px;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  .navbar a:hover {
+    background-color: #f41d659c;
+    color: white;
+    border: 1px solid #f41d653e;
+  }

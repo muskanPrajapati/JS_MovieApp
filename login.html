@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="#" onclick="home()"><i class="fa fa-fw fa-home  homeIcon"></i> Home</a> 
+                <a href="login.html"><i class="fa fa-fw fa-user loginIcon"></i> Login</a>
+                <a href="#" onclick="signup()"><i class="fa fa-sign-in signupIcon"></i> Sign Up</a>
+      </div>
+    <div class="container-login">
+        <div class="box-login">
+            <form >
+                <H1>LOGIN HERE</H1>
+
+                <label for="email" id="email">Email</label>
+                <input type="email" id="uEmail" placeholder="ENTER EMAIL ID">
+                <br>
+
+                <label for="password" id="password">Password</label>
+                <input type="password" id="uPassword" placeholder="Enter your password">
+                <br>
+                <input type="button" value="LOG IN" id="submit" onclick="signIn()"><p class="message">Not registered? <a href="signup.html" class = "link">Register</a></p>
+
+            </form> 
+        </div>
+    </div>
+    
+</body>
+<script src="signup.js"></script>
+</html>
